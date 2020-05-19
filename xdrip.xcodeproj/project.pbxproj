@@ -457,7 +457,6 @@
 		F890E04524746FD6008FB2EC /* ar */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/NightScoutTestResult.strings; sourceTree = "<group>"; };
 		F890E04624746FD7008FB2EC /* ar */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/SettingsViews.strings; sourceTree = "<group>"; };
 		F890E04724746FD7008FB2EC /* ar */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/SpeakReading.strings; sourceTree = "<group>"; };
-		F890E04824746FD7008FB2EC /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		F890E04924746FD7008FB2EC /* ar */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		F890E04A24746FD7008FB2EC /* ar */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Alerts.strings; sourceTree = "<group>"; };
 		F890E04B24746FD7008FB2EC /* ar */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AlertTypesSettingsView.strings; sourceTree = "<group>"; };
@@ -2481,7 +2480,6 @@
 				F8B48AFB22B37C67009BCC01 /* fr */,
 				F8B48B0722B37C83009BCC01 /* zh */,
 				F889CB8D236D89C800A81068 /* de */,
-				F890E04824746FD7008FB2EC /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
