@@ -5,8 +5,8 @@ enum ConstantsHomeView {
     static let updateHomeViewIntervalInSeconds = 15.0
     
     /// info email adres, appears in licenseInfo
-    static let infoEmailAddress = "xdrip@proximus.be"
+    static let infoEmailAddress = "support@diaboxapp.com"
     
     /// application name, appears in licenseInfo as title
-    static let applicationName = "xDrip4iOS"
+    static let applicationName = "xDrip4iO5"
 }

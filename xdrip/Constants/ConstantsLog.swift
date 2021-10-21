@@ -29,7 +29,7 @@ enum ConstantsLog {
     static let debuglogging = "xdripdebuglogging"
     
     /// timestamp format for nslog
-    static let dateFormatNSLog = "y-MM-dd-HH:mm:ss.SSSS"
+    static let dateFormatNSLog = "y-MM-dd HH:mm:ss.SSSS"
     
     /// G5
     static let categoryCGMG5 =                       "CGMG5                         "
@@ -42,6 +42,9 @@ enum ConstantsLog {
     
     /// Blucon
     static let categoryBlucon =                      "Blucon                        "
+    
+    /// Libre2
+    static let categoryCGMLibre2 =                   "Libre2                        "
     
     /// core data manager
     static let categoryCoreDataManager =             "CoreDataManager               "
@@ -103,8 +106,14 @@ enum ConstantsLog {
     /// bluereader
     static let categoryCGMBlueReader =               "CGMBlueReader                 "
     
+    /// atom
+    static let categoryCGMAtom =                     "categoryCGMAtom               "
+    
     /// LibreOOPClient
     static let categoryLibreOOPClient =              "LibreOOPClient                "
+    
+    /// libreDataParser
+    static let categoryLibreDataParser =             "LibreDataParser               "
     
     /// for use in M5Stack
     static let categoryM5StackBluetoothTransmitter = "M5StackBluetoothTransmitter   "
@@ -124,8 +133,29 @@ enum ConstantsLog {
     /// bluetoothPeripheralViewController
     static let categoryBluetoothPeripheralViewController =   "blePeripheralViewController   "
     
+    /// nightscout view model
     static let categoryNightScoutSettingsViewModel =         "nightScoutSettingsViewModel   "
     
+    /// trace
     static let categoryTraceSettingsViewModel =      "TraceSettingsViewModel"
+    
+    /// housekeeping
+    static let categoryHouseKeeper =                 "HouseKeeper                   "
+    
+    /// soonzeParameter accessor
+    static let categoryApplicationDataSnoozeParameter =      "ApplicationDataSnoozeParameter"
+    
+    /// libre NFC
+    static let categoryLibreNFC =                    "categoryLibreNFC"
+    
+    /// for use in cgm transmitter bubble
+    static let categoryLibreSensorType =             "categoryLibreSensorType       "
+
+    /// for use in Libre2BLEUtilities
+    static let categoryLibre2BLEUtilities =             "Libre2BLEUtilities       "
+
+    /// for use in Libre2BLEUtilities
+    static let categoryAppDelegate =                    "AppDelegate              "
+
 }
 
